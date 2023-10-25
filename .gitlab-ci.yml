@@ -69,4 +69,4 @@ production:
     - echo 'Deploy'
   environment:
     name: production
-    url: http://example.com  
+    url: http://example.com
