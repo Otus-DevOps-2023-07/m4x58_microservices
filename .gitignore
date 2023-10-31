@@ -7,4 +7,4 @@ build_info.txt
 
 .env
 docker-compose copy.yml
-docker-compose.*
+#docker-compose.*
