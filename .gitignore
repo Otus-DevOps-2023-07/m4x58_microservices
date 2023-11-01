@@ -1,9 +1,10 @@
 #docker-compose.yml
 build_info.txt
-prometheus/
+#prometheus/
 
 ## python specific
 *.pyc
 
 .env
 docker-compose copy.yml
+#docker-compose.*
