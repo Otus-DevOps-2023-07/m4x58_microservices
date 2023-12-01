@@ -30,3 +30,4 @@ scrape_configs:
     static_configs:
       - targets:
         - 'blackbox_exporter:9115'
+        
