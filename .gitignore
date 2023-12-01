@@ -8,5 +8,3 @@ build_info.txt
 .env
 docker-compose copy.yml
 #docker-compose.*
-reddit_old  
-scr_old
