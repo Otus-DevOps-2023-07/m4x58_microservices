@@ -38,3 +38,16 @@ services:
 volumes:
   reddit_db:
   prometheus_data:
+  
+networks:
+  back_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 10.0.2.0/24
+  front_net:
+    ipam:
+      driver: default
+      config:
+      - subnet: 10.0.1.0/2      

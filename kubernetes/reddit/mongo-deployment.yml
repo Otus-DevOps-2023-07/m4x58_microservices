@@ -24,12 +24,12 @@ spec:
         post-db: "true"
     spec:
       containers:
-      - image: mongo:4
+
+      - image: mongo:3.2
         name: mongo
         volumeMounts:
-        - name: mongo-gce-pd-storage
+        - name: mongo-persistent-storage
           mountPath: /data/db
       volumes:
-      - name: mongo-gce-pd-storage
-        persistentVolumeClaim:
-          claimName:  mongo-pvc
+      - name: mongo-persistent-storage
+        emptyDir: {}
